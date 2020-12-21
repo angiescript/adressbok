@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Adressbok</title>
+</head>
+<body>
+    <h1>Min adressbok</h1>
+    
+    <h2>Lägg till en ny person i adressboken:</h2>
+    <form>
+        <input type="text" id="name" placeholder="Förnamn och efternamn">
+        <input type="number" id="phone_no" placeholder="Telefonnummer">
+        <input type="email" id="email" placeholder="Email-adress">
+        <input type="text" id="address" placeholder="Adress">
+        <button type="button">Lägg till</button>
+     </form>
+
+    <table>
+        <colgroup>
+            <col class="name">
+            <col class="phone_no">
+            <col class="email">
+            <col class="address">
+            <col class="buttons">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th>Namn</th>
+                <th>Telefonnummer</th>
+                <th>Emailadress</th>
+                <th>Hemadress</th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tr>
+            <td>Anna Blankell</td>
+            <td>078843902</td>
+            <td>anna@blankell.se</td>
+            <td>AnnasHemVägen 34, 26644 Skanör</td>
+            <td><button type="button">Ta bort</button></td>
+        </tr>
+
+        <tr>
+            <td>Esma Klay</td>
+            <td>07889079802</td>
+            <td>esma@klay.se</td>
+            <td>EsmasHemVägen 34, 268904 Landskrona</td>
+            <td><button type="button">Ta bort</button></td>
+        </tr>
+
+        <tr>
+            <td>Angelika Johansson</td>
+            <td>0743008765</td>
+            <td>angelika@johansson.se</td>
+            <td>AngelikasHemVägen 3, 267984 Vejbystrand</td>
+            <td><button type="button">Ta bort</button></td>
+        </tr>
+    </table>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
