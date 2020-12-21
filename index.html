@@ -15,10 +15,10 @@
         <input type="number" id="phone_no" placeholder="Telefonnummer">
         <input type="email" id="email" placeholder="Email-adress">
         <input type="text" id="address" placeholder="Adress">
-        <button type="button">Lägg till</button>
+        <button type="button" id="add_button">Lägg till</button>
      </form>
 
-    <table>
+    <table id ="address_table">
         <colgroup>
             <col class="name">
             <col class="phone_no">
@@ -37,32 +37,35 @@
             </tr>
         </thead>
 
-        <tr>
-            <td>Anna Blankell</td>
-            <td>078843902</td>
-            <td>anna@blankell.se</td>
-            <td>AnnasHemVägen 34, 26644 Skanör</td>
-            <td><button type="button">Ta bort</button></td>
-        </tr>
+        <tbody id="tbody">
+            <!-- <tr>
+                <td>Anna Blankell</td>
+                <td>078843902</td>
+                <td>anna@blankell.se</td>
+                <td>AnnasHemVägen 34, 26644 Skanör</td>
+                <td><button type="button" class="delete">Ta bort</button></td>
+            </tr>
 
-        <tr>
-            <td>Esma Klay</td>
-            <td>07889079802</td>
-            <td>esma@klay.se</td>
-            <td>EsmasHemVägen 34, 268904 Landskrona</td>
-            <td><button type="button">Ta bort</button></td>
-        </tr>
+            <tr>
+                <td>Esma Klay</td>
+                <td>07889079802</td>
+                <td>esma@klay.se</td>
+                <td>EsmasHemVägen 34, 268904 Landskrona</td>
+                <td><button type="button" class="delete">Ta bort</button></td>
+            </tr>
 
-        <tr>
-            <td>Angelika Johansson</td>
-            <td>0743008765</td>
-            <td>angelika@johansson.se</td>
-            <td>AngelikasHemVägen 3, 267984 Vejbystrand</td>
-            <td><button type="button">Ta bort</button></td>
-        </tr>
+            <tr>
+                <td>Angelika Johansson</td>
+                <td>0743008765</td>
+                <td>angelika@johansson.se</td>
+                <td>AngelikasHemVägen 3, 267984 Vejbystrand</td>
+                <td><button type="button" class="delete">Ta bort</button></td>
+ -->            </tr>
+        </tbody>
     </table>
 
 
     <script src="script.js"></script>
+    
 </body>
 </html>
